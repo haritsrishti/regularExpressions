@@ -94,6 +94,21 @@ re.search(r"dog", "The quick brown dog"): Finds the word "dog" in the string.
 
 re.sub(r"cat", "dog", "The cat sat on the mat"): Replaces "cat" with "dog".
 
+### re.IGNORECASE
+The re.IGNORECASE flag in Python’s re module is used to perform case-insensitive matching. When you use this flag, the regular expression engine will treat uppercase and lowercase letters as equivalent.
+
+How to Use re.IGNORECASE
+
+To use re.IGNORECASE, you include it as an argument in functions like re.search(), re.match(), re.findall(), and others. Here’s how it works:
+
+Without re.IGNORECASE:
+
+The pattern matches characters exactly as specified, meaning uppercase and lowercase letters are treated as different.
+
+With re.IGNORECASE:
+
+The pattern matches characters regardless of case, so it considers uppercase and lowercase letters as the same.
+
 
 ## Examples and Demonstrations
 For your demonstration, you can walk through some examples using the above functions:
